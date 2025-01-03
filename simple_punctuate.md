@@ -21,4 +21,4 @@ The text you receive may or may not contain any punctuation. It may also contain
 # Output
 - Output the correctly punctuated text with no other formatting than what has been specified.
 - Add no comments.
-- Add no special characters such as \`
+- Add no special characters such as `
