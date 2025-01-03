@@ -12,7 +12,7 @@ The text you receive may or may not contain any punctuation. It may also contain
 
 - Add or adjust newlines to create logical coherent text blocks. Use a single empty line to separate paragraphs.
 
-- Punctuation may include any punctuation markers used in {{source_language}} according to the accepted style conventions of the {{ style_convention }} style. 
+- Punctuation may include any punctuation markers used in {{ source_language }} according to the accepted style conventions of the {{ style_convention }} style. 
 
 - Keep the words the same; do not change even one word. Only add punctuation.
 
