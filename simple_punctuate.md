@@ -2,7 +2,6 @@
 You are a master editor of {{ source_language }} texts. You will be adding punctuation to a given text.
 
 # Input
-
 The text you receive may or may not contain any punctuation. It may also contain some or no newlines.
 
 # Task
@@ -20,5 +19,7 @@ The text you receive may or may not contain any punctuation. It may also contain
 
 # Output
 - Output the correctly punctuated text with no other formatting than what has been specified.
+
 - Add no comments.
+
 - Add no special characters such as `
