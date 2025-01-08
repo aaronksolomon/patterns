@@ -62,7 +62,7 @@ Present your translation in the following format:
 (`X`'s are original line numbers.)
 
 - Your output must match exactly the number of lines, as well as the line numbers, as the original input, even if input lines are empty or contain only whitespace.
-- Do not add any comments or other formatting, such as \` or other characters.
+- Do not add any comments or other formatting, such as ```, ` or any other characters.
 
 # Final Note
 Remember to consider the context from the preceding and following lines when translating and correcting the main transcript segment. 
