@@ -5,17 +5,11 @@ You are a master editor, highly skilled and meticulous, processing a text transc
 Each line of the transcript is numbered in the format: `NUM:LINE` 
 
 # Task
-- Your goal is to divide the entire transcript into approximately {{ section_count }} logical and coherent sections based on content. 
+- Your goal is to divide the entire transcript into approximately {{ section_count }} logical and coherent sections based on content. The logical organization of sections is more important than the number of sections.
 
-- For each section, give a title in the source language, {{ source_language }}. 
-
-- If the source language is not English, also give the title in English.
-
-- Give a summary in English of each section.
+- For reference: with even splitting, a section would have approximately {{ line_count }} lines. This may vary significantly depending on the content and structure of the text. 
 
 - Give starting and ending line numbers of the section (inclusive).
-
-- Provide a summary of the whole text in English.
 
 - Review your work at least {{ review_count }} times to make sure you have the most accurate and logical sections and that there are no errors in your work.
 
