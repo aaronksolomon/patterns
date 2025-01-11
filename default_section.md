@@ -25,7 +25,7 @@ Your output must match the given response format exactly.
 IMPORTANT: 
 - Sections must be given in order.
 
-- Every line in the transcript must belong to a section.
+- Every line in the transcript must belong to exactly one section.
 
 - Don't leave out any lines, even if they are blank or contain only whitespace.
 
