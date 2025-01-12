@@ -7,7 +7,7 @@ Each line of the transcript is numbered in the format: `NUM:LINE`
 # Task
 - Your goal is to divide the entire transcript into approximately {{ section_count }} logical and coherent sections based on content. The logical organization of sections is more important than the number of sections.
 
-- For reference, with even splitting, a section would have approximately {{ line_count }} lines. This may vary significantly depending on the content and structure of the text. 
+- For reference, with even splitting, a section will have approximately {{ line_count }} lines. This may vary significantly depending on the content and structure of the text. 
 
 - Give starting and ending line numbers of the section (inclusive).
 
