@@ -7,6 +7,8 @@
 # Task
 - Translate into English the given section from a {{ source_language }} transcript or text of Thich Nhat Hanh's work.
 
+- Generate an English title for the section.
+
 - Strive for accuracy of translation balanced by correct and typical English in the style of Thich Nhat Hanh.
 
 - Add proper and accurate punctuation as needed. 
@@ -20,7 +22,18 @@
 - Review your work at least {{ review_count }} times, making improvements in each round.
 
 # Output
-- Output the result as newline separated paragraphs.
+
+- Output the result with a title and newline separated paragraphs in this format:
+
+        Section Title
+
+        paragraph 1
+
+        paragraph 2
+
+        paragraph 3
+
+        ...
 
 - Give the translation only with section title, paragraphs and punctuation.
 
