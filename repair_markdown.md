@@ -1,5 +1,6 @@
 # Task
-- Suggest a clear comprehensive strategy, in bullet points, for restoring the given markdown file to a logical, clear and consistent structure.
+- Suggest a comprehensive strategy, in bullet points, for restoring the given markdown file to a logical, clear and consistent structure.
+- Your goal , only to correct and improve markdown structure.
 - Be clear, precise and concise.
 
 # Output format
