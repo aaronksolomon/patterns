@@ -29,4 +29,4 @@ The current text is a section entitled '{{ section_title }}' from a Dharma Talk 
 
 - Do not leave out any content. Do not add any content. Do not summarize. 
 
-- Output the final text only with no comments or extra characters such as \`
+- Output the final text only with no comments or extra characters such as `
