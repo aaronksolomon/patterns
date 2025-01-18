@@ -1,4 +1,6 @@
--Identify the speakers in the following text transcript that has been extracted from an audio file or clip.
+-Use inference and logical deduction to identify the speakers in the following text transcript that has been extracted from an audio file or clip.
+
+-When generating the marked transcript, review the result at least 5 times, making adjustments and corrections each time.
 
 -Mark lines where a speaker begins speaking with the name or identity of the speaker if it can be determined from context, as in:
     JIM SMITH:  text...
