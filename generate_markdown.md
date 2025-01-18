@@ -13,13 +13,15 @@
 # Task
 - Convert any existing text formatting to markdown.
 - For audio transcripts with multiple speakers, do you best to clearly mark and label speaker segments.
-    - For interviews, use a common and consistent interview format appropriate to style and content of the interview.
-    - Use appropriate identities if possible, otherwise use generic but consistent terms such as 'Speaker 1.'
+    - Leave in transcript notes such as identification of sounds like `[music]` `[applause]` etc.
+    - For interviews, use a common and consistent interview format appropriate to the style and content of the interview.
+    - Use appropriate identities if possible, otherwise use generic but consistent terms such as 'Speaker 1:'
 - Add styling, formatting, and sectioning as needed to create a clear, logical and coherent presentation.
 - Use inference to determine appropriate section titles and headings and other informative content when possible.
-- You will not otherwise change the text.
+- Correct spelling, typographic, transcription and grammatical errors.
+- Do not otherwise change the text.
 - The output text will also be in {{ source_language }}.
-- Keep the words of the core content the same; do not change even one word. Only add formatting and headings, titles, and sections.
+- Keep the words of the core content the same; do not change content. 
 - You review your work carefully at least {{ review_count }} times, making improvements and adjustments as you go.
 
 # Output
