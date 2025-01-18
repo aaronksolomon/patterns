@@ -1,4 +1,4 @@
--Identify the speakers in the following text transcript that has been extracted from an audio file.
+-Identify the speakers in the following text transcript that has been extracted from an audio file or clip.
 
 -Mark lines where a speaker begins speaking with the name or identity of the speaker if it can be determined from context, as in:
     JIM SMITH:  text...
@@ -8,6 +8,8 @@
         (where X is the number of the speaker, in order of speakers)
 
 -It is not necessary to mark ever line of the text, only mark changes in speaker according to your best inference.
+
+-Correct basic typographic, spelling, and grammatical errors where obvious.
 
 -Do not otherwise modify the text.
 
