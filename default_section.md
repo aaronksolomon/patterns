@@ -9,6 +9,8 @@ Each line of the transcript is numbered in the format: `NUM:LINE`
 
 - For reference, with even splitting, a section will have approximately {{ line_count }} lines. This may vary significantly depending on the content and structure of the text. 
 
+- You may use existing structures (such as titles or headings) in the text to determine sections.
+
 - Give a meaningful title to the section in {{ source_language }}.
 
 - Give starting and ending line numbers of the section (inclusive).
