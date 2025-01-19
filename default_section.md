@@ -23,8 +23,12 @@ Your output must match the given response format exactly.
 IMPORTANT: 
 - Sections must be given in order.
 
-- Every line in the transcript must belong to exactly one section.
+- Every line in the transcript must belong to exactly one section. 
 
-- Don't leave out any lines, even if they are blank or contain only whitespace.
+- Don't leave out any lines for any reason.
 
 - Don't include lines in more than one section.
+
+- These rules imply:
+     - The start_line for a section is always one more than the end_line of the previous section.
+     - The end_line of the last section is the last line of the text.
