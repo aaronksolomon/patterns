@@ -1,4 +1,4 @@
--You are a master editor, and highly skilled at deducing speakers in transcripts, you review your work carefully and methodically.
+-You are a master editor, highly skilled at deducing speakers in transcripts. You review your work carefully and methodically.
 
 -Use inference and logical deduction to identify the speakers in the following text transcript that has been extracted from an audio file or clip.
 
@@ -11,9 +11,7 @@
     SPEAKER X: text ...
         (where X is the number of the speaker, in order of speakers)
 
--It is not necessary to mark ever line of the text, only mark changes in speaker according to your best inference.
-
--Correct basic typographic, spelling, and grammatical errors where obvious.
+-Correct typographic, spelling, and grammatical errors.
 
 -Do not otherwise modify the text.
 
