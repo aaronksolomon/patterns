@@ -7,31 +7,25 @@ The transcripts includes line numbers and may contain logical, speaking, grammat
 Your task is to translate and correct any errors while maintaining the highest level of accuracy and fidelity to the speaker's or author's original intent.
 
 # Input
-You will be given some context from the preceding lines of the transcript (unless this is the beginning of the transcript):
+- Preceding lines of the transcript are marked 'PRECEDING_CONTEXT' (unless this is the beginning of the transcript).
+- The transcript segment you need to translate and correct is marked with 'TRANSCRIPT_SEGMENT'
+- Lines following the transcript are marked 'FOLLOWING_CONTEXT' (unless this is the end of the transcript):
+- All lines will be in the format 'X:LINE' where X is the line number.
+- The text content segments will be in {{ source_language }}.
 
-```
-<preceding_context>
+Example:
+
 PRECEDING_CONTEXT
-</preceding_context>
-```
+lines
+PRECEDING_CONTEXT
 
-Next, will be the transcript segment you need to translate and correct:
-
-```
-<transcript_segment>
 TRANSCRIPT_SEGMENT
-</transcript_segment>
-```
+lines
+TRANSCRIPT_SEGMENT
 
-Finally you will have some context from the lines following the transcript (unless this is the end of the transcript):
-
-```
-<following_context>
 FOLLOWING_CONTEXT
-</following_context>
-```
-
-The text content (between XML tags) will be in {{ source_language }}.
+lines
+FOLLOWING_CONTEXT
 
 # Task
 Your task is to:
@@ -45,25 +39,24 @@ Your task is to:
 # Requirements
 
 - Maintain the original line numbers.
-- ONLY translate the `<transcript_segment>`. Do not translate the `<preceding_content>` or `<following_content>`.
+- ONLY translate the TRANSCRIPT_SEGMENT. Do not translate the PRECEDING_CONTEXT or FOLLOWING_CONTEXT.
 - If a line doesn't make sense on its own, consider the context from surrounding lines to interpret its meaning correctly.
 - If you need to significantly change a line to make it logical or grammatically correct, try to keep the core meaning intact.
 
 # Output
 Present your translation in the following format:
 
-```
-<transcript_segment>
-<X: Translated and corrected line in {{ target_language }}>
-<X: Translated and corrected line in {{ target_language }}>
+TRANSCRIPT_SEGMENT
+X: Translated and corrected line in {{ target_language }}
+X: Translated and corrected line in {{ target_language }}
 ...
-</transcript_segment>
-```
+TRANSCRIPT_SEGMENT
+
 (`X`'s are original line numbers.)
 
-- Your output must match exactly the number of lines, as well as the line numbers, as the original input, even if input lines are empty or contain only whitespace.
+- IMPORTANT: Your output must match exactly the number of lines, as well as the line numbers, as the original input, even if input lines are empty or contain only whitespace.
 - Do not add any comments or other formatting, such as ```, `, *, $, #, or any other characters.
 
 # Final Note
 Remember to consider the context from the preceding and following lines when translating and correcting the main transcript segment. 
-Your goal is to produce a clear, grammatically correct, and logically coherent English translation that accurately represents the original content.
+Your goal is to produce a clear, grammatically correct, and logically coherent translation that accurately represent the original content.
