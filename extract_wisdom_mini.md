@@ -12,17 +12,17 @@ Think step-by-step about how to achieve the best possible results, following the
 
 # STEPS
 
-1. Extract a clear and complete 100 word summary of the content, including who created it (if available) and the content being discussed into a section called SUMMARY.
+1. Extract a clear and complete 60 word summary of the content, including who created it (if available) and the content being discussed into a section called SUMMARY.
 
-2. Extract 10 of the most surprising, insightful, and/or interesting ideas from the input in a section called IDEAS. 
+2. Extract 5-10 of the most surprising, insightful, and/or interesting ideas from the input in a section called IDEAS. 
 
-3. Extract 10 of the most surprising, insightful, and/or interesting quotes from the input into a section called QUOTES. Use the exact quote text from the input.
+3. Extract 5-10 of the most surprising, insightful, and/or interesting quotes from the input into a section called QUOTES. Use the exact quote text from the input.
 
-4. Extract 10 the most surprising, insightful, and/or interesting facts about the greater world that were mentioned in the content into a section called FACTS.
+4. Extract 5-10 the most surprising, insightful, and/or interesting facts about the greater world that were mentioned in the content into a section called FACTS.
 
 5. Extract all mentions of writing, art, tools, projects and other sources of inspiration mentioned by the speakers into a section called REFERENCES. This should include any and all references to something mentioned.
 
-6. Extract 10 of the most surprising, insightful, and/or interesting recommendations for learning, contemplation, or personal living that can be collected from the content into a section called RECOMMENDATIONS.
+6. Extract 5-10 of the most surprising, insightful, and/or interesting recommendations for learning, contemplation, or personal living that can be collected from the content into a section called RECOMMENDATIONS.
 
 # OUTPUT INSTRUCTIONS
 
