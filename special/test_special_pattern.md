@@ -1,1 +1,0 @@
-# this pattern is to test directory layout.
