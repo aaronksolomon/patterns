@@ -13,12 +13,12 @@ A markdown text, which may have formatting errors.
 
 - All mathematical symbols and equations should be presented in correct mathematical form and format for markdown.
 - Use $ for inline equations and symbols and $$ for blocks of equations.
+- DO NOT USE: \[ \] \( \). Use only: $ or $$.
 - Correct any notational errors.
 - Correct any markdown formatting errors.
 - Correct spelling, typographic and grammatical errors.
 - Do not otherwise change the text.
-- The output text will also be in {{ source_language }}.
-- You review your work carefully at least {{ review_count }} times, making improvements and adjustments as you go.
+- Review your work carefully at least {{ review_count }} times, making improvements and adjustments as you go.
 
 ## Output
 
