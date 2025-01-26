@@ -26,6 +26,7 @@
 - Use inference to determine appropriate section titles and headings and other informative content when possible.
 - Correct spelling, typographic, transcription and grammatical errors.
 - Do not otherwise change the text.
+- For mathematical terms, use $ or $$ to properly format. DO NOT USE: \( \) \[ \]
 - The output text will also be in {{ source_language }}.
 - Keep the words of the core content the same; do not change content.
 - You review your work carefully at least {{ review_count }} times, making improvements and adjustments as you go.
