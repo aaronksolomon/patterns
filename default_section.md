@@ -10,13 +10,14 @@ Each line of the transcript is numbered in the format: `NUM:LINE`
 
 - Your first task is to divide the entire transcript into approximately {{ section_count }} logical and coherent sections based on content.
   - Give starting line numbers of each section. (Sections are always contiguous without breaks: a section ends on the line before the start of the next section.)
-  - Give a meaningful title to each section in {{ source_language }}--base the titles on the existing titles if present in the text.
+  - Give a meaningful title to each section in {{ source_language }}--base the titles on the text or existing titles.
   - The logical organization of sections is more important than the number of sections.
-  - For reference, with even splitting, a section will have approximately {{ line_count }} lines. This may vary significantly depending on the content and structure of the text.
+  - With even splits, a section will have approximately {{ line_count }} lines. This may vary significantly depending on the content and structure of the text. 
+  - More sections is preferable than less.
   - If there are existing structures (such as titles or headings) in the text, use them to determine sections.
 
 - Your second task is to create overall contextual information for the text in {{ source_language }}. This includes:
-  - A concise, comprehensive summary 
+  - A concise, comprehensive summary
   - Available metadata (use English keys, but values in {{ source_language }})
   - Key concepts
   - Narrative context
