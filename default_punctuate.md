@@ -32,6 +32,7 @@ style_convention: APA
 - Add no comments.
 - Add no special characters to wrap the output as `, #, $, *
 - Example:
+
     First paragraph text goes on this line...
 
     Second paragraph text goes on this line...
