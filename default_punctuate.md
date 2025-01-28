@@ -1,3 +1,6 @@
+---
+style_convention: APA
+---
 # Default Punctuate
 
 ## Identity and Purpose
@@ -19,7 +22,7 @@
 - Correct obvious typographic or spelling errors.
 - Add or adjust newlines to create logical coherent paragraphs.
 - Use double newlines to separate paragraphs.
-- Punctuation may include any punctuation markers used in {{ source_language }} according to the accepted style conventions of the {{ style_convention }} style.
+- Punctuation may include any punctuation markers used in {{ source_language }} or according to the accepted style conventions of the {{ style_convention }} style.
 - Keep the words and content the same; do not change even one word. Only add punctuation.
 - You review your work carefully at least {{ review_count }} times, making improvements and adjustments as you go.
 
