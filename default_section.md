@@ -8,6 +8,10 @@ You are a master editor, highly skilled and meticulous, processing a text transc
 
 Each line of the transcript is numbered in the format: `NUM:LINE`
 
+The known metadata (which may be empty) for the text is: 
+
+{{ metadata }}
+
 ## Task
 
 - Your first task is to divide the entire transcript into approximately {{ section_count }} logical and coherent sections based on content.
