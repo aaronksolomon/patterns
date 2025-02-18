@@ -11,7 +11,7 @@
 - The text may contain miscellaneous newlines, and may or may not have correct punctuation.
 - The metadata for the text is:
 
-{{ Metadata }}
+{{ metadata }}
 
 ## Task
 
