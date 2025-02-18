@@ -20,7 +20,7 @@ Each line of the transcript is numbered in the format: `NUM:LINE`
 
 - Your second task is to create overall contextual information for the text in {{ source_language }}. This includes:
   - A concise, comprehensive summary
-  - Available metadata
+  - Available dublin core metadata
   - Key concepts
   - Narrative context
   - These data fields will be referenced by another AI in order to understand the context of a section and process it intelligently.
