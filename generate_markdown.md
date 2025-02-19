@@ -26,14 +26,16 @@
 - Use inference to determine appropriate section titles and headings and other informative content when possible.
 - Correct spelling, typographic, transcription and grammatical errors.
 - Do not otherwise change the text.
-- For mathematical terms, use $ or $$ to properly format. DO NOT USE: \( \) \[ \]
+- For mathematical terms, expressions and equation blocks use $ or $$ ONLY. Convert: \( \) to $ and convert: \[ \] to $$
 - The output text will also be in {{ source_language }}.
-- Keep the words of the core content the same; do not change content.
+- Keep the words of the content the same; do not change content.
 - You review your work carefully at least {{ review_count }} times, making improvements and adjustments as you go.
 
 ## Output
 
 - Output correctly formatted Markdown in {{ source_language }}.
+- Sections (marked with '#''s) should not end with punctuation (such as ':')
 - Separate all text blocks, sections and titles appropriately with double newlines (\n\n) for proper markdown rendering.
-- Do not wrap the output in any special characters such as `, #, $, *
+- Do not use numbered lists. Instead use section headings with numbers such as: "### 1. This is the first element in a list structure"
+- Do not wrap the output in any special characters or formatting such as `, #, $, *
 - Add no comments.
