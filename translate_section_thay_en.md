@@ -7,9 +7,9 @@
 
 ## Input
 
-- A section of text entitled '{{ section_title }}' (translated from {{ source_language }})
+- A section of text entitled '{{ section_title }}'
 - The text may contain miscellaneous newlines, and may or may not have correct punctuation.
-- The metadata for the text is:
+- The known metadata for the text is:
 
 {{ metadata }}
 
