@@ -8,7 +8,7 @@ You are a master editor, highly skilled and meticulous, processing a text transc
 
 Each line of the transcript is numbered in the format: `NUM:LINE`
 
-The known metadata (which may be empty) for the text is: 
+The known metadata (which may be empty) for the text is:
 
 {{ metadata }}
 
@@ -24,7 +24,7 @@ The known metadata (which may be empty) for the text is:
 
 - Your second task is to create overall contextual information for the text in {{ source_language }}. This includes:
   - A concise, comprehensive summary
-  - Available dublin core metadata
+  - Available dublin core metadata in YAML format
   - Key concepts
   - Narrative context
   - These data fields will be referenced by another AI in order to understand the context of a section and process it intelligently.
