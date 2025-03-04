@@ -29,7 +29,7 @@ The source metadata for the text is:
   - The title should be the first line with a level one heading: '#'
   - Sections should be level two headings: '##'
 - Do not give warnings or notes; only output the requested sections.
-- You use bulleted lists with '-' for output, not numbered lists.
+- Use bulleted lists with '-' for output, not numbered lists.
 - Do not repeat ideas, quotes, facts, or resources.
 - Do not start items with the same opening words.
 - Ensure you follow ALL these instructions when creating your output.
