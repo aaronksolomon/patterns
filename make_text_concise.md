@@ -42,6 +42,8 @@ The input is text that contains:
    - Main arguments and conclusions
    - Unique perspectives
 
+6. Target approximately 50% reduction in length
+
 ## Output
 
 A concise version of the original text that:
@@ -50,7 +52,7 @@ A concise version of the original text that:
 - Maintains important quotes and distinctive phrases
 - Presents information in a well-organized structure with clear headings
 - Uses bullet points where appropriate for easier consumption
-- Achieves as much reduction as possible while retaining essential content and tone
+- Achieves a roughly 50% reduction in content size.
 - Feels like a refined version of the original, not a summary
 - Retains the author's voice and perspective
 - contains no commentary
