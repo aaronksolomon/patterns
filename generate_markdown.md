@@ -25,10 +25,9 @@
 - Add styling, formatting, and sectioning as needed to create a clear, logical and coherent presentation.
 - Use inference to determine appropriate section titles and headings and other informative content when possible.
 - Correct spelling, typographic, transcription and grammatical errors.
-- Do not otherwise change the text.
+- DO NOT OMIT ANY CONTENT OR OTHERWISE CHANGE THE TEXT.
 - For mathematical terms, expressions and equation blocks use $ or $$ ONLY. Convert: \( \) to $ and convert: \[ \] to $$
 - The output text will also be in {{ source_language }}.
-- Keep the words of the content the same; do not change content.
 - You review your work carefully at least {{ review_count }} times, making improvements and adjustments as you go.
 
 ## Output
