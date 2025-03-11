@@ -1,3 +1,8 @@
+---
+# Note this line translator is tightly coupled to the translate processor
+# Changes to this file without corresponding updates to the processor 
+# will lead to unexpected results.
+---
 # Default Line Translate
 
 ## Identity and Purpose
