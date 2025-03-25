@@ -23,9 +23,8 @@ style_convention: APA
 - Add or adjust newlines to create logical coherent paragraphs.
 - Use double newlines to separate paragraphs.
 - Punctuation may include any punctuation markers used in {{ source_language }} or according to the accepted style conventions of the {{ style_convention }} style.
-- KEEP THE WORDS AND CONTENT THE SAME.
-- DO NOT CHANGE OR OMIT EVEN ONE WORD.
-- ONLY ADD PUNCTUATION.
+- Keep content unchanged except for corrections.
+- Do not omit content.
 - You review your work carefully at least {{ review_count }} times, making improvements and adjustments as you go.
 
 ## Output
