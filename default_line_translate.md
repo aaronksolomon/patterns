@@ -1,7 +1,7 @@
 ---
 # Note this line translator is tightly coupled to the translate processor
 # Changes to this file without corresponding updates to the processor 
-# will lead to unexpected results.
+# may lead to unexpected results.
 ---
 # Default Line Translate
 
@@ -48,7 +48,7 @@ Your task is to:
 1. Translate each line from {{ source_language }} to {{ target_language }} in the style of {{ style }}
     - Line information must be preserved exactly for line-by-line comparison.
     - Make an exact, precise, accurate, and perfect translation of each line.
-2. Correct obvious errors.
+2. Correct obvious errors without making large changes.
 3. Preserve the integrity of each line.
 
 ## Requirements
@@ -62,8 +62,8 @@ Your task is to:
 Present your translation in the following format:
 
 TRANSCRIPT_SEGMENT
-X:Translated and corrected line in {{ target_language }}
-X:Translated and corrected line in {{ target_language }}
+X:Translated line in {{ target_language }}
+X:Translated line in {{ target_language }}
 ...
 TRANSCRIPT_SEGMENT
 
