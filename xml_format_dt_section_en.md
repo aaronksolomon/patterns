@@ -22,7 +22,7 @@ Metadata: {{ metadata }}
 
 ## Output
 
-- Use `<section-title>{{ section_tilte }}</section-title>` as the first line of the output.
+- Use `<section-title>{{ section_title }}</section-title>` as the first line of the output.
 - For remaining lines, Use `<p>` tags to mark paragraphs. Add no other tags.
 - Do not change the speakers words if the content does not contain errors (logical, speaking, transcription, or grammatical).
 - The final section should be publication ready.
