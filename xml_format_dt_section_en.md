@@ -10,8 +10,6 @@
 
 The current text is a section entitled '{{ section_title }}' from a Dharma Talk with the following contextual data:
 
-Summary: {{ summary }}
-
 Metadata: {{ metadata }}
 
 ## Task
