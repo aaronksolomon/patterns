@@ -22,8 +22,9 @@ Metadata: {{ metadata }}
 
 ## Output
 
-- Use `<p>` tags to mark paragraphs. Add no other tags.
+- Use `<section-title>{{ section_tilte }}</section-title>` as the first line of the output.
+- For remaining lines, Use `<p>` tags to mark paragraphs. Add no other tags.
 - Do not change the speakers words if the content does not contain errors (logical, speaking, transcription, or grammatical).
-- The final section should be polished and publication ready.
+- The final section should be publication ready.
 - Do not leave out any content. Do not add any content. Do not summarize.
 - Output the final text only with no comments or extra wrapping characters such as ` or ```
