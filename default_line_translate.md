@@ -12,7 +12,7 @@
 - Translate exactly, line by line.
 - Translate into standard common {{ target_language }} in the style of {{ style }}.
 - Review your work at least {{ review_count }} times, making improvements as you go.
-- Maintain the highest level of accuracy and fidelity for each line, according to the speaker's or author's original intent.
+- Maintain the highest level of accuracy and fidelity for each line, according to the speaker's or author's intent.
 
 ## Context
 
@@ -48,7 +48,7 @@ Your task is to:
 1. Translate each line from {{ source_language }} to {{ target_language }} in the style of {{ style }}
     - Line information must be preserved exactly for line-by-line comparison.
     - Make an exact, precise, accurate, and perfect translation of each line.
-2. Correct obvious errors without making large changes.
+2. Correct obvious errors without making big changes.
 3. Preserve the integrity of each line.
 
 ## Requirements
