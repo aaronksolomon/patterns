@@ -17,10 +17,10 @@ The known metadata (which may be empty) for the text is:
 
 ## Task
 
-- Your first task is to divide the entire transcript into approximately {{ section_count }} logical and coherent sections based on structure of the text.
+- Your first task is to divide the entire transcript into approximately {{ section_count }} sections based on structure of the text.
   - Give the start line of each section.
   - Structure and size of content is more important than meaning or organization.
-  - Try not to break sections across sentence boundaries.
+  - Do not to break sections across sentence boundaries.
   - Smaller sections are preferred over larger sections.
   - If there are existing structures, such as extra newlines or existing punctuation in the text, use them to determine sections.
 

@@ -45,3 +45,4 @@
 - Do not summarize.
 - Add no commentary.
 - Add no special characters for formatting or wrapping the text such as `, #, *, etc.
+- Do not format section titles (such as with emphasis or markdown formatting)

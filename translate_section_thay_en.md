@@ -40,13 +40,8 @@
         ...
 
 - Give the translation only with section title, paragraphs and punctuation.
-
 - Make no changes to the meaning of the text.
-
 - Do not add or omit any content.
-
 - Do not summarize.
-
 - Add no commentary.
-
 - Add no special characters for formatting or wrapping the text such as `, #, *, etc.
