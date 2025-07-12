@@ -1,5 +1,6 @@
 ---
 style_convention: APA
+source_language: English
 ---
 # Default Punctuate
 
@@ -25,7 +26,6 @@ style_convention: APA
 - Punctuation may include any punctuation markers used in {{ source_language }} or according to the accepted style conventions of the {{ style_convention }} style.
 - Keep content UNCHANGED except for these corrections.
 - DO NOT OMIT content.
-- You review your work carefully at least {{ review_count }} times, making improvements and adjustments as you go.
 
 ## Output
 
