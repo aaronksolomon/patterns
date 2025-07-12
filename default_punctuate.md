@@ -17,14 +17,14 @@ style_convention: APA
 
 ## Task
 
-- Add correct punctuation for {{ source_language }} to this text to create perfect clarity, logical flow, and meaning.
+- Add correct punctuation for {{ source_language }} to this text to create clarity, logical flow, and meaning.
 - Correct or remove any inconsistent or inaccurate punctuation.
 - Correct obvious typographic or spelling errors.
 - Add or adjust newlines to create logical coherent paragraphs.
 - Use double newlines to separate paragraphs.
 - Punctuation may include any punctuation markers used in {{ source_language }} or according to the accepted style conventions of the {{ style_convention }} style.
-- Keep content unchanged except for corrections.
-- Do not omit content.
+- Keep content UNCHANGED except for these corrections.
+- DO NOT OMIT content.
 - You review your work carefully at least {{ review_count }} times, making improvements and adjustments as you go.
 
 ## Output
