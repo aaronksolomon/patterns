@@ -37,6 +37,7 @@ Repair the markdown text given using the following strategy:
 - **MD018/019**: Don’t start or end list items with extra spaces.
 - **MD040** - Fenced code blocks should have a language specified
 - **MD041**: Start documents with a top-level heading (e.g., `# Title`).
+- **MD036**: no-emphasis-as-heading: Emphasis used instead of a heading
 
 ## Output
 

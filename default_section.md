@@ -29,7 +29,7 @@ The known metadata (which may be empty) for the text is:
   - Available Dublin Core metadata in YAML format (field names in {{ field_language }}, field values in {{ source_language }})
   - Key concepts in {{ source_language }}
   - Narrative context in {{ source_language }}
-  - These data fields will be referenced by another AI in order to understand the context of a section and process it intelligently.
+  - These data fields will be referenced by other AI systems in order to understand the context of a section and process it intelligently.
 
 - Review your work at least {{ review_count }} times to make sure you have the most accurate and logical sections and that there are no errors in your work.
 
