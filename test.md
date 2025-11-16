@@ -1,6 +1,6 @@
 # Test
 
-This is a test prompt for testing AI service prompt requesting
+This is a test prompt for testing a Generative AI service module
 
 ## Task
 
