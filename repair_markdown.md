@@ -27,6 +27,7 @@ Repair the markdown text given using the following strategy:
 ## Detailed MD standards
 
 - **MD032**: Always surround lists with a blank line.
+- **MD041**: Start documents with a top-level heading (e.g., `# Title`)
 - **MD025**: Use a single top-level `#` heading per document.
 - **MD022**: Headings should be surrounded by blank lines.
 - **MD004**: Use consistent list markers (`-` only for simplicity)
@@ -36,12 +37,11 @@ Repair the markdown text given using the following strategy:
 - **MD014**: Don’t use hard tabs; always use spaces.
 - **MD018/019**: Don’t start or end list items with extra spaces.
 - **MD040** - Fenced code blocks should have a language specified
-- **MD041**: Start documents with a top-level heading (e.g., `# Title`).
-- **MD036**: no-emphasis-as-heading: Emphasis used instead of a heading
+- **MD036**: Don't use emphasis as a heading: Emphasized text should always be part of a sentence or have punctuation.
 
 ## Output
 
 - Output final markdown text only.
 - Do not MODIFY OR OMIT any of the actual text content.
-- Do not give any commentary or add comments to the text.
+- Do not add any commentary or comments to the text.
 - Do not add any extra wrapping symbols or text around the output, such as `, ```, markdown, etc.
