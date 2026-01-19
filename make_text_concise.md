@@ -1,8 +1,25 @@
-# Make Text Concise
+---
+key: make_text_concise
+name: Make Text Concise
+version: "1.0"
+description: Transforms verbose text into concise version (~50% reduction) while preserving meaning and voice
+task_type: editing
+required_variables: []
+optional_variables: []
+tags:
+  - editing
+  - concision
+  - condensing
+  - clarity
+default_model: gpt-4o
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
-## Identity and Purpose
+## Task
 
-This pattern transforms verbose text into a concise version while preserving the essential meaning, key phrases, and unique voice of the original. It aims to create a more accessible version that retains the core value while removing redundancy and unnecessary elaboration.
+Transform verbose text into a concise version (~50% reduction) while preserving essential meaning, key phrases, and the author's unique voice.
 
 ## Input
 

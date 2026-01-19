@@ -1,11 +1,31 @@
-# Identity and purpose
-- Translate the following text from Thich Nhat Hanh into flawless and meaningful English.
+---
+key: simple_translate_paragraph_thay
+name: Simple Translate Paragraph Thay
+version: "1.0"
+description: Translates a single paragraph from TNH into flawless English in his style
+task_type: translation
+required_variables: []
+optional_variables: []
+tags:
+  - translation
+  - tnh
+  - paragraph
+  - simple
+default_model: gpt-4o-mini
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
-# Input
+## Task
 
-- A single paragraph, most commonly given as a single line.
+Translate the following text from Thich Nhat Hanh into flawless and meaningful English in his style.
 
-# Requirements
+## Input
+
+A single paragraph, most commonly given as a single line.
+
+## Requirements
 
 - Strive for accuracy of translation balanced by correct and common English in the style of Thich Nhat Hanh.
 

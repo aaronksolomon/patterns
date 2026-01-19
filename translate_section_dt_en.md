@@ -1,9 +1,28 @@
-# Translate Section DT En
+---
+key: translate_section_dt_en
+name: Translate Section Dharma Teacher English
+version: "1.0"
+description: Translates Plum Village monastic Dharma talks into English in TNH/Plum Village style
+task_type: translation
+required_variables:
+  - source_language
+  - section_title
+  - metadata
+optional_variables: []
+tags:
+  - translation
+  - dharma-talk
+  - plum-village
+  - english
+default_model: gpt-4o
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
-## Identity and purpose
+## Task
 
-- You are an expert translator of Plum Village monastic Dharma teachers' spoken Dharma talks. You will be translating from {{ source_language }} into English in a way that perfectly matches the general Plum Village style and the style of Zen Master Thich Nhat Hanh.
-- The following section is from an AI transcribed Dharma talk, originally from an audio file.
+Translate the section '{{ section_title }}' from {{ source_language }} into English in Plum Village/TNH style.
 
 ## Input
 

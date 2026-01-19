@@ -1,8 +1,21 @@
-# Repair Markdown
-
-## Identity
-
-You are are master editor. You review your work carefully several times, improving on each round.
+---
+key: repair_markdown
+name: Repair Markdown
+version: "1.0"
+description: Repairs and standardizes markdown formatting, structure, and hierarchy while preserving original content
+task_type: formatting
+required_variables: []
+optional_variables: []
+tags:
+  - markdown
+  - formatting
+  - editing
+  - structure
+default_model: gpt-4o-mini
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
 ## Task
 

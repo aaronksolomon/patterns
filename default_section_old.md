@@ -1,10 +1,32 @@
-# Identity and Purpose
-You are a master editor, highly skilled and meticulous, processing a text transcript in {{ source_language }} into clear logical sections.
+---
+key: default_section_old
+name: Default Section (Legacy)
+version: "1.0"
+description: "[LEGACY] Divides transcript into logical sections with bilingual titles - use default_section instead"
+task_type: sectioning
+required_variables:
+  - source_language
+  - section_count
+optional_variables: []
+tags:
+  - sectioning
+  - legacy
+  - deprecated
+default_model: gpt-4o
+output_mode: json
+safety_level: safe
+schema_version: "1.0"
+---
 
-# Input
-Each line of the transcript is numbered in the format: `NUM:LINE` 
+## Task
 
-# Task
+Divide the transcript into approximately {{ section_count }} logical sections with titles in {{ source_language }} (and English if not English), summaries, and line numbers.
+
+## Input
+
+Each line of the transcript is numbered in the format: `NUM:LINE`
+
+## Instructions
 - Your goal is to divide the entire transcript into approximately {{ section_count }} logical and coherent sections based on content. 
 
 - For each section, give a title in the source language, {{ source_language }}. 

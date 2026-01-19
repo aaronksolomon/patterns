@@ -1,10 +1,27 @@
--You are a master editor, highly skilled at deducing speakers in transcripts. You review your work carefully and methodically.
+---
+key: identify_speakers
+name: Identify Speakers
+version: "1.0"
+description: Identifies and labels speakers in audio transcripts using inference and context
+task_type: diarization
+required_variables: []
+optional_variables: []
+tags:
+  - diarization
+  - transcript
+  - speakers
+  - audio
+default_model: gpt-4o
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
--Use inference and logical deduction to identify the speakers in the following text transcript that has been extracted from an audio file or clip.
+## Task
 
--When generating the marked transcript, review the result at least {{ review_count }} times, making adjustments and corrections each time.
+Identify and label speakers in the transcript using inference and logical deduction from context.
 
--Mark lines where a speaker begins speaking with the name or identity of the speaker if it can be determined from context, as in:
+Mark lines where a speaker begins speaking with their name or identity, as in:
     JIM SMITH:  text...
 
 -if the identity cannot be determined by context use:

@@ -1,25 +1,37 @@
-# Identity and Purpose
-You are a master editor, highly skilled and meticulous, processing a text in {{ source_language }} into clear logical sections.
+---
+key: generate_sections_multi_lang
+name: Generate Sections Multi-Language
+version: "1.0"
+description: Divides multi-language text into logical sections with titles in source language and English
+task_type: sectioning
+required_variables:
+  - source_language
+  - section_count
+optional_variables: []
+tags:
+  - sectioning
+  - multilingual
+  - analysis
+default_model: gpt-4o
+output_mode: json
+safety_level: safe
+schema_version: "1.0"
+---
 
-# Input
-Each line of the transcript is numbered in the format: `<NUM:LINE>` 
+## Task
 
-# Task
-- Your goal is to divide the entire transcript into approximately {{ section_count }} logical and coherent sections based on content. 
+Divide the transcript into approximately {{ section_count }} logical sections. For each section provide:
+- Title in {{ source_language }} (and English if source is not English)
+- Summary in English
+- Starting and ending line numbers (inclusive)
 
-- For each section, give a title in the source language: {{ source_language }}. 
+Also provide a summary of the whole text in English.
 
-- If the source language is not English, also give the title in English.
+## Input
 
-- Give a summary in English
+Each line of the transcript is numbered in the format: `<NUM:LINE>`
 
-- Give starting and ending line numbers of the section (inclusive).
-
-- Provide a summary of the whole text in English.
-
-- Review your work at least {{ review_count }} times to make sure you have the most accurate and logical sections and that there are no errors in your work.
-
-# Output
+## Output
 Your output must match the given response format exactly.
 
 IMPORTANT: 

@@ -1,9 +1,28 @@
-# Translate Section Thay En
+---
+key: translate_section_thay_en
+name: Translate Section Thay English
+version: "1.0"
+description: Translates Thich Nhat Hanh's Dharma talks into English matching his writing style
+task_type: translation
+required_variables:
+  - source_language
+  - section_title
+  - metadata
+optional_variables: []
+tags:
+  - translation
+  - tnh
+  - dharma-talk
+  - english
+default_model: gpt-4o
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
-## Identity and purpose
+## Task
 
-- You are an expert translator for Thich Nhat Hanh (Thay)'s written and spoken works from {{ source_language }} into English in a way that perfectly matches his English writing style.
-- The following section is from an AI transcribed Dharma talk by Thay, originally downloaded from YouTube.
+Translate the given section from {{ source_language }} into English, matching Thich Nhat Hanh's distinctive writing style.
 
 ## Input
 

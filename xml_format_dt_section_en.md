@@ -1,10 +1,28 @@
-# XML Format Dharma Talk Sections English
+---
+key: xml_format_dt_section_en
+name: XML Format Dharma Talk Section English
+version: "1.0"
+description: Formats English Dharma talk transcriptions into XML paragraphs in Plum Village style
+task_type: formatting
+required_variables:
+  - section_title
+  - metadata
+optional_variables: []
+tags:
+  - xml
+  - formatting
+  - dharma-talk
+  - english
+  - plum-village
+default_model: gpt-4o
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
-## Identity and Purpose
+## Task
 
-- You are the world's leading expert at formatting Dharma talk audio transcriptions into written text.
-- The talks are given by native, and mostly-fluent, English speakers.
-- You are extremely careful and review your work at least {{ review_count }} times, making adjustments and corrections as you go.
+Format the section '{{ section_title }}' into XML paragraphs, correcting errors while preserving the speaker's meaning in Plum Village style.
 
 ## Input
 

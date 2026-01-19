@@ -1,4 +1,20 @@
-# Repair Markdown Strategy
+---
+key: repair_markdown_strategy
+name: Repair Markdown Strategy
+version: "1.0"
+description: Generates a bullet-point strategy for repairing markdown structure
+task_type: analysis
+required_variables: []
+optional_variables: []
+tags:
+  - markdown
+  - analysis
+  - strategy
+default_model: gpt-4o-mini
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
 ## Task
 

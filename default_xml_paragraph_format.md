@@ -1,14 +1,36 @@
-# Identity and Purpose
-You are the world's foremost editor in {{ source_language }}. You will be editing and formatting text. You are extremely careful and review your work at least {{ review_count }} times, making adjustments and corrections as you go.
+---
+key: default_xml_paragraph_format
+name: Default XML Paragraph Format
+version: "1.0"
+description: Formats single paragraph text into XML with proper tags (p, br, lists, quotes, emphasis)
+task_type: formatting
+required_variables:
+  - source_language
+optional_variables:
+  - speaker_name
+tags:
+  - xml
+  - formatting
+  - paragraphs
+default_model: gpt-4o-mini
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
-# Input
+## Task
+
+Format the input paragraph into XML with appropriate tags, correcting any errors.
+
+## Input
+
 - The input is a single line which represents a logical paragraph.
 
 {% if speaker_name %}
 - The current text is authored or spoken by {{ speaker_name }}.
 {% endif %}
 
-# Task
+## Instructions
 - Correct any logical, grammatical, speaking or transcription errors you encounter.
 
 - Faithfully convey the speaker's intended meaning as accurately as possible while maintaining the original tone, style, and language if possible. Use the speaker's original phrasing if it works well and is correct.

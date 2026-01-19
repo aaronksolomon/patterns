@@ -1,9 +1,26 @@
-# Format Markdown Math
+---
+key: format_markdown_math
+name: Format Markdown Math
+version: "1.0"
+description: Formats mathematical text into proper Markdown with correct equation notation ($ and $$)
+task_type: formatting
+required_variables:
+  - source_language
+optional_variables: []
+tags:
+  - markdown
+  - math
+  - formatting
+  - equations
+default_model: gpt-4o
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
-## Identity and Purpose
+## Task
 
-- You are a master editor and typesetter of mathematical texts in {{ source_language }}.
-- You will be formatting a given text into Markdown format with correct mathematical formatting.
+Format the given text into Markdown with correct mathematical notation using $ for inline and $$ for block equations.
 
 ## Input
 

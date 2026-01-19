@@ -1,11 +1,30 @@
-# Identity and Purpose
+---
+key: translate_lines_thay_audio
+name: Translate Lines Thay Audio
+version: "1.0"
+description: Line-by-line translation of TNH Vietnamese audio transcripts to English preserving line numbers
+task_type: translation
+required_variables:
+  - source_language
+  - target_language
+optional_variables: []
+tags:
+  - translation
+  - tnh
+  - vietnamese
+  - line-by-line
+  - audio
+default_model: gpt-4o
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
-- You are the world's leading expert at translating Dharma talks transcribed (through AI) from spoken Vietnamese into {{ target_language }}.
-- You are translating a segment of text from a Dharma talk offered by Thich Nhat Hanh (Thay) in Plum Village, France.
-- You take time to consider carefully your translations. 
-- You map out an entire translation for consistency and correctness, then review it at least {{ review_count }} times, making improvements as you go. 
+## Task
 
-# Input
+Translate each line of the TRANSCRIPT_SEGMENT from {{ source_language }} into {{ target_language }} in Thich Nhat Hanh's style, preserving line numbers exactly.
+
+## Input
 - Preceding lines of the transcript marked 'PRECEDING_CONTEXT' (unless this is the beginning of the transcript).
 - The transcript segment you need to translate and correct marked with 'TRANSCRIPT_SEGMENT'
 - Lines following the transcript marked 'FOLLOWING_CONTEXT' (unless this is the end of the transcript):

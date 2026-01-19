@@ -1,15 +1,30 @@
 ---
-style_convention: APA
-source_language: English
+key: punctuate_dharma_talk
+name: Punctuate Dharma Talk
+version: "1.0"
+description: Adds punctuation and paragraph breaks to Deer Park and Plum Village Dharma Talk transcriptions
+task_type: punctuation
+required_variables:
+  - source_language
+optional_variables:
+  - style_convention
+tags:
+  - punctuation
+  - formatting
+  - dharma-talk
+  - transcription
+default_variables:
+  source_language: English
+  style_convention: APA
+default_model: gpt-4o-mini
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
 ---
-# Punctuate Dharma Talk
 
-## Identity and Purpose
+## Task
 
-- You are a master editor of Deer Park and Plum Village Monasty Dharma Talk audio transcriptions in {{ source_language }}.
-- You will be adding punctuation and breaking the transcribed text into paragraphs separated by double newlines.
-- You will not otherwise change the text.
-- The output text will also be in {{ source_language }}.
+Add correct punctuation and paragraph structure to Dharma Talk transcriptions.
 
 ## Input
 

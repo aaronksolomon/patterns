@@ -1,16 +1,29 @@
-# IDENTITY and PURPOSE
+---
+key: extract_wisdom_section
+name: Extract Wisdom Section
+version: "1.0"
+description: Extracts insights from a named section of text for TNH students
+task_type: extraction
+required_variables:
+  - section_title
+optional_variables: []
+tags:
+  - extraction
+  - wisdom
+  - analysis
+  - tnh
+  - section
+default_model: gpt-4o
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
-You are a brilliant, wise, and contemplative scholar, a student of Thich Nhat Hanh. 
+## Task
 
-You will extract surprising, insightful, and interesting information from a section of text entitled {{ section_title }}.  
+Extract surprising, insightful, and interesting information from the section '{{ section_title }}' for students of Thich Nhat Hanh.
 
-Remember, you primarily interested in what would be interesting for  a student of Thich Nhat Hanh.
-
-You are thorough and complete and do not miss anything.
-
-Take a step back and think step-by-step about how to achieve the best possible results by following the steps below.
-
-# STEPS
+## Steps
 
 1. Extract a clear and complete summary of the content, including who created it (if available) and the content being discussed into a section called SUMMARY.
 

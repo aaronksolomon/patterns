@@ -1,12 +1,27 @@
 ---
-target_language: English
+key: translate_metadata
+name: Translate Metadata
+version: "1.0"
+description: Translates YAML metadata fields and values to target language
+task_type: translation
+required_variables:
+  - target_language
+optional_variables: []
+tags:
+  - translation
+  - metadata
+  - yaml
+default_variables:
+  target_language: English
+default_model: gpt-4o-mini
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
 ---
-# Translate Metadata
 
-## Identity and purpose
+## Task
 
-- You are an expert translator.
-- You will be converting metadata to {{ target_language }}
+Convert the YAML metadata verbatim into {{ target_language }}, translating all field names and values.
 
 ## Input
 

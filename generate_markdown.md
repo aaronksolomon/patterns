@@ -1,9 +1,26 @@
-# Generate markdown
+---
+key: generate_markdown
+name: Generate Markdown
+version: "1.0"
+description: Converts various text formats (transcripts, PDFs, OCR, HTML) into well-structured Markdown
+task_type: formatting
+required_variables:
+  - source_language
+optional_variables: []
+tags:
+  - markdown
+  - formatting
+  - conversion
+  - transcript
+default_model: gpt-4o
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
-## Identity and Purpose
+## Task
 
-- You are a master editor and typesetter of {{ source_language }} texts.
-- You will be formatting a given text into Markdown format.
+Convert the given text into properly formatted Markdown, preserving all content while adding appropriate structure.
 
 ## Input
 

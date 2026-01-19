@@ -1,11 +1,31 @@
 ---
-field_language: English
+key: section_by_break
+name: Section by Break
+version: "1.0"
+description: Divides text transcript into sections based on existing structural breaks
+task_type: sectioning
+required_variables:
+  - source_language
+  - section_count
+  - metadata
+optional_variables:
+  - field_language
+tags:
+  - sectioning
+  - transcript
+  - metadata
+  - structure
+default_variables:
+  field_language: English
+default_model: gpt-4o
+output_mode: json
+safety_level: safe
+schema_version: "1.0"
 ---
-# Default Section
 
-## Identity and Purpose
+## Task
 
-You are a master editor, highly skilled and meticulous, processing a text transcript in {{ source_language }} into clear sections based on existing breaks in text.
+Divide the text transcript into sections based on existing structural breaks.
 
 ## Input
 

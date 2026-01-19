@@ -1,15 +1,29 @@
 ---
-style_convention: APA
-source_language: English
+key: default_punctuate
+name: Default Punctuate
+version: "1.0"
+description: Adds punctuation and paragraph breaks to text while preserving original content
+task_type: punctuation
+required_variables:
+  - source_language
+optional_variables:
+  - style_convention
+tags:
+  - punctuation
+  - formatting
+  - editing
+default_variables:
+  source_language: English
+  style_convention: APA
+default_model: gpt-4o-mini
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
 ---
-# Default Punctuate
 
-## Identity and Purpose
+## Task
 
-- You are a master editor of {{ source_language }} texts.
-- You will be adding punctuation and breaking the text into paragraphs separated by double newlines.
-- You will not otherwise change the text.
-- The output text will also be in {{ source_language }}.
+Add correct punctuation and paragraph structure to the given text.
 
 ## Input
 

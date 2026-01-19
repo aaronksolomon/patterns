@@ -1,18 +1,28 @@
 ---
-# Note this line translator is tightly coupled to the translate processor
-# Changes to this file without corresponding updates to the processor 
-# may lead to unexpected results.
+key: default_line_translate
+name: Default Line Translate
+version: "1.0"
+description: Line-by-line translation preserving line numbers and structure (tightly coupled to translate processor)
+task_type: translation
+required_variables:
+  - source_language
+  - target_language
+  - style
+  - metadata
+optional_variables: []
+tags:
+  - translation
+  - line-by-line
+  - transcript
+default_model: gpt-4o
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
 ---
-# Default Line Translate
 
-## Identity and Purpose
+## Task
 
-- You are the world's foremost translator of {{ source_language }} to {{ target_language }}.
-- Consider carefully your translation.
-- Translate exactly, line by line.
-- Translate into standard common {{ target_language }} in the style of {{ style }}.
-- Review your work at least {{ review_count }} times, making improvements as you go.
-- Maintain the highest level of accuracy and fidelity for each line, according to the speaker's or author's intent.
+Translate each line from {{ source_language }} to {{ target_language }} in the style of {{ style }}, preserving line numbers exactly.
 
 ## Context
 

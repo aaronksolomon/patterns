@@ -1,9 +1,27 @@
-# Organize and Collate Translation
+---
+key: organize_collate_translation
+name: Organize and Collate Translation
+version: "1.0"
+description: Organizes line-by-line translated Vietnamese Dharma talks into coherent English paragraphs in TNH style
+task_type: editing
+required_variables:
+  - section_title
+optional_variables: []
+tags:
+  - editing
+  - translation
+  - tnh
+  - vietnamese
+  - dharma-talk
+default_model: gpt-4o
+output_mode: text
+safety_level: safe
+schema_version: "1.0"
+---
 
-## Identity and purpose
+## Task
 
-- You are an expert editor of Thich Nhat Hanh's written and spoken works in English.
-- You are able to organize content in a way that perfectly matches his English writing style.
+Organize the translated section '{{ section_title }}' into logical, coherent paragraphs in Thich Nhat Hanh's English writing style.
 
 ## Input
 

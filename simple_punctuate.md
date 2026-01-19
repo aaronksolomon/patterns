@@ -1,3 +1,24 @@
+---
+key: simple_punctuate
+name: Simple Punctuate
+version: "1.0"
+description: Add punctuation to text while preserving original words
+task_type: punctuation
+required_variables: []
+optional_variables:
+  - source_language
+  - style_convention
+  - review_count
+tags:
+  - punctuation
+  - formatting
+  - editing
+default_variables:
+  source_language: "English"
+  style_convention: "APA"
+default_model: gpt-5-mini
+schema_version: "1.0"
+---
 # Simple Punctuate
 
 ## Identity and Purpose
@@ -16,11 +37,9 @@ The text you receive may or may not contain any punctuation. It may also contain
 
 - Add or adjust newlines to create logical coherent text blocks. Use a single empty line to separate paragraphs.
 
-- Punctuation may include any punctuation markers used in {{ source_language }} according to the accepted style conventions of the {{ style_convention }} style. 
+- Punctuation may include any punctuation markers used in {{ source_language }} according to the accepted style conventions of the {{ style_convention }} style.
 
-- Keep the words the same; do not change even one word. Only add punctuation.
-
-- You review your work carefully at least {{ review_count }} times, making improvements and adjustments as you go.
+- Keep the words the same; do not change any word, unless it is to fix a very clear typographical error. Only add punctuation.
 
 ## Output
 
